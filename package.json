@@ -6,6 +6,7 @@
     "scripts": {
         "dev": "vite",
         "build": "vite build",
+        "prepublish": "npm run build",
         "lint": "NODE_ENV=production eslint site/**/*.ts site/**/*.tsx",
         "lint:fix": "eslint --fix site/**/*.ts site/**/*.tsx lib/**/*.ts",
         "test": "jest",
@@ -18,6 +19,9 @@
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
+    },
+    "repository": {
+        "url": "https://github.com/zdwh/vue3-emotion"
     },
     "dependencies": {
         "vue": "^3.0.5"
