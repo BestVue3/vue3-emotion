@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "lib": ["esnext", "dom"],
+    "types": ["vite/client", "webpack-env"],
+    "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }]
+  },
+  "include": ["site/**/*.ts", "site/**/*.d.ts", "site/**/*.tsx", "lib/**/*.ts", "lib/**/*.d.ts", "lib/**/*.tsx"]
+}

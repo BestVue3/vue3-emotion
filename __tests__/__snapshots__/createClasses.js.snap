@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`createClasses basic render 1`] = `
+"
+.css-1swzj20{color:blue;font-size:20px;}
+@media (min-width: 420px){.css-1swzj20{color:yellow;}}
+
+<div class=\\"css-1swzj20\\"></div>
+"
+`;
+
+exports[`createClasses basic render with props change 1`] = `
+"
+.css-bk9fzy{font-size:20px;}
+
+<div class=\\"css-bk9fzy\\"></div>
+"
+`;
+
+exports[`createClasses basic render with props change 2`] = `
+"
+.css-bk9fzy{font-size:20px;}
+.css-qhp3qs{font-size:30px;}
+
+<div class=\\"css-qhp3qs\\"></div>
+"
+`;
+
+exports[`createClasses basic render with theme 1`] = `
+"
+.css-6hbvuo{color:redtheme;}
+
+<div class=\\"css-6hbvuo\\"></div>
+"
+`;
+
+exports[`createClasses basic render with theme change 1`] = `
+"
+.css-15a1zpo{color:start;}
+
+<div class=\\"css-15a1zpo\\"></div>
+"
+`;
+
+exports[`createClasses basic render with theme change 2`] = `
+"
+.css-15a1zpo{color:start;}
+.css-zznfmp{color:changed;}
+
+<div class=\\"css-zznfmp\\"></div>
+"
+`;
+
+exports[`createClasses no dynamic 1`] = `
+"
+.css-tokvmb{color:red;}
+
+<div class=\\"css-tokvmb\\"></div>
+"
+`;
+
+exports[`createClasses pseudo selectors 1`] = `
+"
+.css-tawzjp{color:blue;}
+.css-tawzjp:hover{color:pink;}
+.css-tawzjp:hover:active{color:purple;}
+.css-tawzjp:hover.some-class{color:yellow;}
+
+<button class=\\"css-tawzjp\\">Should be purple</button>
+"
+`;
+
+exports[`createClasses style array 1`] = `
+"
+.css-153n6gk{color:red;font-size:21px;}
+
+<div class=\\"css-153n6gk\\">Should be purple</div>
+"
+`;

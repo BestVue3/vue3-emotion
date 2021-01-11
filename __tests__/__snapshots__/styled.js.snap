@@ -1,0 +1,320 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`styled basic render 1`] = `
+"
+.css-cy3wtx{color:blue;font-size:20px;}
+@media (min-width: 420px){.css-cy3wtx{color:blue;}}
+
+<h1 class=\\"css-cy3wtx\\">hello world</h1>
+"
+`;
+
+exports[`styled basic render with object as style 1`] = `
+"
+.css-bk9fzy{font-size:20px;}
+
+<h1 class=\\"css-bk9fzy\\">hello world</h1>
+"
+`;
+
+exports[`styled call expression 1`] = `
+"
+.css-1ycmxg5{font-size:21px;}
+
+<div class=\\"css-1ycmxg5\\">hello world</div>
+"
+`;
+
+exports[`styled component selectors 1`] = `
+"
+.css-1endiyq{color:greengrey;}
+.css-1endiyq .e322f2d3tbrgf2e0{color:yellow;}
+.css-14exbk5{color:hotpinkse1;}
+
+<div class=\\"css-1endiyq\\"><div class=\\"css-14exbk5 e322f2d3tbrgf2e0\\"></div></div>
+"
+`;
+
+exports[`styled composing components 1`] = `
+"
+.css-1lvrex6{color:green;display:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;}
+
+<button class=\\"css-1lvrex6\\">hello world</button>
+"
+`;
+
+exports[`styled composition 1`] = `
+"
+.css-kebyc{font-size:20px;font-size:13.333333333333334px;}
+
+<h1 class=\\"css-kebyc\\">hello world</h1>
+"
+`;
+
+exports[`styled composition 2`] = `
+"
+.css-vua55s{color:blue;color:red;color:blue;font-size:20px;font-size:32px;}
+
+<h1 scale=\\"2\\" class=\\"legacy__class css-vua55s\\">hello world</h1>
+"
+`;
+
+exports[`styled composition based on props 1`] = `
+"
+.css-1grt4fh{color:blue;}
+
+<h1 class=\\"css-1grt4fh\\">hello world</h1>
+"
+`;
+
+exports[`styled composition based on props 2`] = `
+"
+.css-1grt4fh{color:blue;}
+.css-11vzs44{color:green;}
+
+<h1 class=\\"css-11vzs44\\">hello world</h1>
+"
+`;
+
+exports[`styled composition of nested pseudo selectors 1`] = `
+"
+.css-rl47rh{}
+.css-rl47rh:hover{color:pink;}
+.css-rl47rh:hover:active{color:purple;}
+.css-rl47rh:hover.some-class{color:yellow;}
+.css-c1kq0y{font-size:2rem;padding:16px;}
+.css-c1kq0y:hover{color:blue;}
+.css-c1kq0y:hover:active{color:red;}
+.css-c1kq0y:hover{color:pink;}
+.css-c1kq0y:hover:active{color:purple;}
+.css-c1kq0y:hover.some-class{color:yellow;}
+
+<button class=\\"css-c1kq0y\\">Should be purple</button>
+"
+`;
+
+exports[`styled function in expression 1`] = `
+"
+.css-15zrik0-H1{font-size:20px;font-size:40px;}
+
+<h1 scale=\\"2\\" class=\\"legacy__class css-15zrik0-H1\\">hello world</h1>
+"
+`;
+
+exports[`styled glamorous style api & composition 1`] = `
+"
+.css-1yodimz{font-size:20px;-webkit-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+
+<h1 fontsize=\\"20\\" class=\\"css-1yodimz\\">hello world</h1>
+"
+`;
+
+exports[`styled handles more than 10 dynamic properties 1`] = `
+"
+.css-1mn53vu{-webkit-text-decoration:underline;text-decoration:underline;border-right:solid blue 54px;background:white;color:black;display:block;border-radius:3px;padding:25px;width:500px;z-index:100;font-size:18px;text-align:center;border-left:blue;}
+
+<h1 class=\\"css-1mn53vu\\">hello world</h1>
+"
+`;
+
+exports[`styled higher order component 1`] = `
+"
+.css-itdwi{font-size:20px;background-color:#7fc8d6;background-color:'#343a40';-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}
+
+<div class=\\"css-itdwi\\"></div>
+"
+`;
+
+exports[`styled inline function return value is a function 1`] = `
+"
+.css-1u4dn5o{font-size:20px;}
+
+<h1 class=\\"css-1u4dn5o\\">hello world</h1>
+"
+`;
+
+exports[`styled input placeholder 1`] = `
+"
+.css-120m7hs{}
+.css-120m7hs::-webkit-input-placeholder{background-color:green;}
+.css-120m7hs::-moz-placeholder{background-color:green;}
+.css-120m7hs:-ms-input-placeholder{background-color:green;}
+.css-120m7hs::placeholder{background-color:green;}
+
+<input class=\\"css-120m7hs\\">
+"
+`;
+
+exports[`styled input placeholder object 1`] = `
+"
+.css-135lywr{}
+.css-135lywr::-webkit-input-placeholder{background-color:green;}
+.css-135lywr::-moz-placeholder{background-color:green;}
+.css-135lywr:-ms-input-placeholder{background-color:green;}
+.css-135lywr::placeholder{background-color:green;}
+
+<input class=\\"css-135lywr\\">
+"
+`;
+
+exports[`styled keyframes with css call 1`] = `
+"
+@-webkit-keyframes animation-ocj8pk{from,to{color:green;}50%{color:hotpink;}}
+@keyframes animation-ocj8pk{from,to{color:green;}50%{color:hotpink;}}
+.css-1y5469o{-webkit-animation:animation-ocj8pk;animation:animation-ocj8pk;}
+
+<div class=\\"css-1y5469o\\"></div>
+"
+`;
+
+exports[`styled nested 1`] = `
+"
+.css-ma4a7u{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.css-ma4a7u div{color:green;}
+.css-ma4a7u div span{color:red;}
+
+<div class=\\"css-ma4a7u\\">hello <h1 class=\\"css-1u4dn5o\\">This will be green</h1> world</div>
+"
+`;
+
+exports[`styled no dynamic 1`] = `
+"
+.css-1teb557{float:left;}
+
+<h1 class=\\"css-1teb557\\">hello world</h1>
+"
+`;
+
+exports[`styled no prop filtering on non string tags 1`] = `
+"
+.css-zfn0vm{color:green;}
+
+<a a=\\"true\\" b=\\"true\\" wow=\\"true\\" prop=\\"true\\" filtering=\\"true\\" is=\\"true\\" cool=\\"true\\" aria-label=\\"some label\\" data-wow=\\"value\\" href=\\"link\\" class=\\"css-zfn0vm\\"></a>
+"
+`;
+
+exports[`styled no prop filtering on string tags started with upper case 1`] = `
+"
+
+
+<somecustomlink a=\\"true\\" b=\\"true\\" wow=\\"true\\" prop=\\"true\\" filtering=\\"true\\" is=\\"true\\" cool=\\"true\\" aria-label=\\"some label\\" data-wow=\\"value\\" href=\\"link\\" class=\\"css-zfn0vm\\">hello world</somecustomlink>
+"
+`;
+
+exports[`styled object as style 1`] = `
+"
+.css-1nsnxu6{font-size:20px;-webkit-flex:0;-ms-flex:0;flex:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+
+<h1 fontsize=\\"20\\" class=\\"css-1nsnxu6\\">hello world</h1>
+"
+`;
+
+exports[`styled object composition 1`] = `
+"
+.css-18b5fmf{border-radius:50%;-webkit-transition:-webkit-transform 400ms ease-in-out;transition:transform 400ms ease-in-out;border:3px solid currentColor;width:96px;height:96px;color:red;color:blue;}
+.css-18b5fmf:hover{-webkit-transform:scale(1.2);-moz-transform:scale(1.2);-ms-transform:scale(1.2);transform:scale(1.2);}
+
+<img class=\\"css-18b5fmf\\">
+"
+`;
+
+exports[`styled objects 1`] = `
+"
+.css-1b8zhb0{padding:10px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+
+<h1 display=\\"flex\\" class=\\"css-1b8zhb0\\">hello world</h1>
+"
+`;
+
+exports[`styled objects with spread properties 1`] = `
+"
+
+
+<figure class=\\"css-bk9fzy\\">hello world</figure>
+"
+`;
+
+exports[`styled prop filtering 1`] = `
+"
+.css-gvqk7x{color:greenfiltering;}
+
+<a is=\\"true\\" aria-label=\\"some label\\" data-wow=\\"value\\" href=\\"link\\" class=\\"css-gvqk7x\\">hello world</a>
+"
+`;
+
+exports[`styled prop filtering on composed styled components that are string tags 1`] = `
+"
+.css-18aq1cd{background-color:hotpink;color:green;}
+
+<a is=\\"true\\" aria-label=\\"some label\\" data-wow=\\"value\\" href=\\"link\\" class=\\"css-18aq1cd\\">hello world</a>
+"
+`;
+
+exports[`styled random expressions undefined return 1`] = `
+"
+.css-14p0lg6{color:green;}
+
+<h1 class=\\"css-14p0lg6\\">hello world</h1>
+"
+`;
+
+exports[`styled random object expression 1`] = `
+"
+.css-1cqel1g{background-color:hotpink;font-size:1rem;margin-top:0;margin-right:auto;margin-bottom:0;margin-left:auto;color:green;}
+
+<h1 class=\\"css-1cqel1g\\">hello world</h1>
+"
+`;
+
+exports[`styled same component rendered multiple times 1`] = `
+"
+.css-13o9nax{color:greenpark;}
+
+<div class=\\"css-13o9nax\\"></div>
+"
+`;
+
+exports[`styled same component rendered multiple times 2`] = `
+"
+.css-13o9nax{color:greenpark;}
+
+<div class=\\"css-13o9nax\\"><div class=\\"css-13o9nax\\"></div><div class=\\"css-13o9nax\\"></div></div>
+"
+`;
+
+exports[`styled theming 1`] = `
+"
+.css-1d3h3h2{color:yellowpick;}
+
+<div class=\\"css-1d3h3h2\\">this should be yellowpick</div>
+"
+`;
+
+exports[`styled throws if undefined is passed as the component 1`] = `
+"You are trying to create a styled element with an undefined component.
+You may have forgotten to import it."
+`;
+
+exports[`styled withComponent does carry styles from flattened component 1`] = `
+"
+.css-1a2upri{color:green;color:hotpink;}
+
+<p class=\\"css-1a2upri\\"></p>
+"
+`;
+
+exports[`styled withComponent will replace tags but keep styling classes 1`] = `
+"
+.css-9xuyn7{color:black;}
+
+<article><h1 class=\\"css-9xuyn7\\">My Title</h1><h2 class=\\"css-9xuyn7\\">My Subtitle</h2></article>
+"
+`;
+
+exports[`styled withComponent with function interpolation 1`] = `
+"
+.css-fhhtk3{color:yellow;}
+
+<article><h1 class=\\"css-fhhtk3\\">My Title</h1><h2 class=\\"css-fhhtk3\\">My Subtitle</h2></article>
+"
+`;
