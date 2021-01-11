@@ -1,6 +1,6 @@
 {
     "name": "vue3-emotion",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "dist/vue3-emotion.cjs.js",
     "module": "dist/vue3-emotion.es.js",
     "scripts": {
