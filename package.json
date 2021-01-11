@@ -16,6 +16,9 @@
             "pre-commit": "npm run lint"
         }
     },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
     "dependencies": {
         "vue": "^3.0.5"
     },
