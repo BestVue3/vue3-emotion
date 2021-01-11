@@ -7,7 +7,7 @@
         "dev": "vite",
         "build": "vite build",
         "lint": "NODE_ENV=production eslint site/**/*.ts site/**/*.tsx",
-        "lint:fix": "eslint --fix site/**/*.ts site/**/*.tsx lib/**/*.ts __tests__/**/*.js",
+        "lint:fix": "eslint --fix site/**/*.ts site/**/*.tsx lib/**/*.ts",
         "test": "jest",
         "pub": "np"
     },

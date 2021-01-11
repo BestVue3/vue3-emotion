@@ -55,7 +55,7 @@ exports[`styled composition 2`] = `
 "
 .css-vua55s{color:blue;color:red;color:blue;font-size:20px;font-size:32px;}
 
-<h1 scale=\\"2\\" class=\\"legacy__class css-vua55s\\">hello world</h1>
+<h1 class=\\"legacy__class css-vua55s\\" scale=\\"2\\">hello world</h1>
 "
 `;
 
@@ -97,7 +97,7 @@ exports[`styled function in expression 1`] = `
 "
 .css-15zrik0-H1{font-size:20px;font-size:40px;}
 
-<h1 scale=\\"2\\" class=\\"legacy__class css-15zrik0-H1\\">hello world</h1>
+<h1 class=\\"legacy__class css-15zrik0-H1\\" scale=\\"2\\">hello world</h1>
 "
 `;
 
@@ -189,7 +189,7 @@ exports[`styled no prop filtering on non string tags 1`] = `
 "
 .css-zfn0vm{color:green;}
 
-<a a=\\"true\\" b=\\"true\\" wow=\\"true\\" prop=\\"true\\" filtering=\\"true\\" is=\\"true\\" cool=\\"true\\" aria-label=\\"some label\\" data-wow=\\"value\\" href=\\"link\\" class=\\"css-zfn0vm\\"></a>
+<a a=\\"true\\" aria-label=\\"some label\\" b=\\"true\\" cool=\\"true\\" data-wow=\\"value\\" filtering=\\"true\\" href=\\"link\\" is=\\"true\\" prop=\\"true\\" wow=\\"true\\" class=\\"css-zfn0vm\\"></a>
 "
 `;
 
@@ -197,7 +197,7 @@ exports[`styled no prop filtering on string tags started with upper case 1`] = `
 "
 
 
-<somecustomlink a=\\"true\\" b=\\"true\\" wow=\\"true\\" prop=\\"true\\" filtering=\\"true\\" is=\\"true\\" cool=\\"true\\" aria-label=\\"some label\\" data-wow=\\"value\\" href=\\"link\\" class=\\"css-zfn0vm\\">hello world</somecustomlink>
+<somecustomlink a=\\"true\\" aria-label=\\"some label\\" b=\\"true\\" cool=\\"true\\" data-wow=\\"value\\" filtering=\\"true\\" href=\\"link\\" is=\\"true\\" prop=\\"true\\" wow=\\"true\\" class=\\"css-zfn0vm\\">hello world</somecustomlink>
 "
 `;
 
@@ -238,7 +238,7 @@ exports[`styled prop filtering 1`] = `
 "
 .css-gvqk7x{color:greenfiltering;}
 
-<a is=\\"true\\" aria-label=\\"some label\\" data-wow=\\"value\\" href=\\"link\\" class=\\"css-gvqk7x\\">hello world</a>
+<a aria-label=\\"some label\\" data-wow=\\"value\\" href=\\"link\\" is=\\"true\\" class=\\"css-gvqk7x\\">hello world</a>
 "
 `;
 
@@ -246,7 +246,7 @@ exports[`styled prop filtering on composed styled components that are string tag
 "
 .css-18aq1cd{background-color:hotpink;color:green;}
 
-<a is=\\"true\\" aria-label=\\"some label\\" data-wow=\\"value\\" href=\\"link\\" class=\\"css-18aq1cd\\">hello world</a>
+<a aria-label=\\"some label\\" data-wow=\\"value\\" href=\\"link\\" is=\\"true\\" class=\\"css-18aq1cd\\">hello world</a>
 "
 `;
 
