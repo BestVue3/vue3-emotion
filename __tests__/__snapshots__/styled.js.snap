@@ -159,9 +159,9 @@ exports[`styled input placeholder object 1`] = `
 
 exports[`styled keyframes with css call 1`] = `
 "
+.css-1y5469o{-webkit-animation:animation-ocj8pk;animation:animation-ocj8pk;}
 @-webkit-keyframes animation-ocj8pk{from,to{color:green;}50%{color:hotpink;}}
 @keyframes animation-ocj8pk{from,to{color:green;}50%{color:hotpink;}}
-.css-1y5469o{-webkit-animation:animation-ocj8pk;animation:animation-ocj8pk;}
 
 <div class=\\"css-1y5469o\\"></div>
 "

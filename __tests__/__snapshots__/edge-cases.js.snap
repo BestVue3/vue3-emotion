@@ -10,9 +10,9 @@ exports[`nested function using css 1`] = `
 
 exports[`nested function using css and keyframes 1`] = `
 "
+.css-w4v1yx{-webkit-animation:animation-ocj8pk;animation:animation-ocj8pk;}
 @-webkit-keyframes animation-ocj8pk{from,to{color:green;}50%{color:hotpink;}}
 @keyframes animation-ocj8pk{from,to{color:green;}50%{color:hotpink;}}
-.css-w4v1yx{-webkit-animation:animation-ocj8pk;animation:animation-ocj8pk;}
 
 <div class=\\"css-w4v1yx\\"></div>
 "

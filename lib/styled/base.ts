@@ -7,8 +7,10 @@ import {
     PrivateStyledComponent,
     StyledComponentCommonProps,
 } from './utils'
-import { EmotionCache, getRegisteredStyles, insertStyles } from '@emotion/utils'
+import { getRegisteredStyles, insertStyles } from '@emotion/utils'
 import { serializeStyles, Interpolation } from '@emotion/serialize'
+
+import { useTheme, useCache } from '../context'
 
 const ILLEGAL_ESCAPE_SEQUENCE_ERROR = `You have illegal escape sequence in your template literal, most likely inside content's property value.
 Because you write your CSS inside a JavaScript string you actually have to do double escaping, so for example "content: '\\00d7';" should become "content: '\\\\00d7';".
@@ -21,10 +23,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
 //     // theme: Object as PropType<Record<string, unknown>>,
 // } as const
 
-export default function createStyled<Theme extends unknown>(
-    useCache: () => Ref<EmotionCache>,
-    useTheme: () => Ref<Theme>,
-) {
+export default function createStyled<Theme extends unknown>() {
     const styled = (tag: any, options?: StyledOptions) => {
         if (process.env.NODE_ENV !== 'production') {
             if (tag === undefined) {
