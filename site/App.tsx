@@ -15,6 +15,10 @@ import { space, SpaceProps, FlexProps, FontSizeProps } from 'styled-system'
 
 const makeDiv = styled('div')
 
+function getText(t: string) {
+    return `${t} hello222`
+}
+
 const P = makeDiv<SpaceProps & HTMLAttributes>(space, {
     color: 'red',
     ':hover': {
@@ -35,6 +39,7 @@ const H2 = styled(H1)<FlexProps & FontSizeProps>(
 // const arr = [1, 2, 3]
 
 export default defineComponent({
+    name: 'test',
     setup() {
         const state = reactive({
             index: 0,
@@ -68,7 +73,7 @@ export default defineComponent({
                     He
                 </P>
                 <H1 flex="1" fontSize={24}>
-                    H1
+                    {getText('H11')}
                 </H1>
                 <H2 flex="1" fontSize={24}>
                     Hello

@@ -4,11 +4,14 @@
     "main": "dist/vue3-emotion.cjs.js",
     "module": "dist/vue3-emotion.es.js",
     "files": [
-        "dist"
+        "dist",
+        "types"
     ],
+    "types": "types",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
+        "build:types": "tsc --emitDeclarationOnly --project tsconfig.build.json",
         "prepublish": "npm run build",
         "lint": "NODE_ENV=production eslint site/**/*.ts site/**/*.tsx",
         "lint:fix": "eslint --fix site/**/*.ts site/**/*.tsx lib/**/*.ts",

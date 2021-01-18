@@ -9,7 +9,9 @@
     "sourceMap": true,
     "lib": ["esnext", "dom"],
     "types": ["vite/client", "webpack-env"],
-    "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }]
+    "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }],
+    "declaration": true,
+    "declarationDir": "types"
   },
   "include": ["site/**/*.ts", "site/**/*.d.ts", "site/**/*.tsx", "lib/**/*.ts", "lib/**/*.d.ts", "lib/**/*.tsx"]
 }
