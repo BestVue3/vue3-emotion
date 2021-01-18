@@ -17,7 +17,7 @@ export default defineConfig({
             formats: ['cjs', 'es'],
         },
         rollupOptions: {
-            external: [/@emotion/, 'styled-system'],
+            external: [/@emotion/, 'styled-system', 'vue'],
         },
     },
 })

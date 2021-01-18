@@ -8,7 +8,7 @@ import { defineComponent, reactive, HTMLAttributes } from 'vue'
 
 // import { spacing, SpacingProps } from '@material-ui/system'
 
-import { createClasses, styled } from '../lib'
+import { createClasses, styled } from '..'
 // import estyled from '@emotion/styled'
 // import { spacing, SpacingProps } from '@material-ui/system'
 import { space, SpaceProps, FlexProps, FontSizeProps } from 'styled-system'
