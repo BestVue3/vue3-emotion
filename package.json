@@ -10,7 +10,7 @@
     "types": "types",
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
+        "build": "vite build && npm run build:types",
         "build:types": "tsc --emitDeclarationOnly --project tsconfig.build.json",
         "prepublish": "npm run build",
         "lint": "NODE_ENV=production eslint site/**/*.ts site/**/*.tsx",
