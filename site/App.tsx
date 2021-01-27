@@ -4,7 +4,7 @@
  * See: https://stackoverflow.com/questions/56557988/eslint-in-vsc-not-working-for-ts-and-tsx-files
  */
 
-import { defineComponent, reactive, HTMLAttributes } from 'vue'
+import { defineComponent, reactive, HTMLAttributes, shallowRef } from 'vue'
 
 // import { spacing, SpacingProps } from '@material-ui/system'
 
@@ -57,8 +57,11 @@ export default defineComponent({
             ],
         }))
 
+        const divRef = shallowRef()
+
         return () => (
             <div
+                ref={divRef}
                 class={classesRef.value.container}
                 onClick={() => (state.index = state.index === 0 ? 1 : 0)}
             >
