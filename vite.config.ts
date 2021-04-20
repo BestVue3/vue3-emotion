@@ -3,16 +3,16 @@ import { defineConfig } from 'vite'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 // import vue from '@vitejs/plugin-vue'
 
-import path from 'path'
+import { resolve } from 'path'
 
 export default defineConfig({
-    plugins: [vueJsx({ mergerProps: false })],
+    plugins: [vueJsx({ mergeProps: false, pragma: 'jsx' })],
     optimizeDeps: {
         include: ['object-assign', 'prop-types', 'react-is'],
     },
     build: {
         lib: {
-            entry: path.resolve(__dirname, 'lib/index.ts'),
+            entry: resolve(__dirname, 'lib/index.ts'),
             name: 'Vue3Emotion',
             formats: ['cjs', 'es'],
         },
